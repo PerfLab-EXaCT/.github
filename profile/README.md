@@ -25,10 +25,13 @@ Performance Lab for Extreme Computing and Data
 
 # Workload Benchmarking and Characterization
 
+* [QuaL²M (QuaLM)](https://github.com/pnnl/qualm): Quantitative Learned Latency Model [[Datasets]](https://github.com/PerfLab-EXaCT/qualm-data)
+
 * [PERFECT Suite](https://github.com/pnnl/perfect)
 
 * [SEAK Suite](https://github.com/pnnl/seak)
  
+
 
 # Miscelleneous tools for performance analysis and modeling
 
