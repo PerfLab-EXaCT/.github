@@ -2,9 +2,11 @@
 
 <!-- $Id$ -->
 
+<!--
 Performance Lab for Extreme Computing and Data
 =============================================================================
- 
+-->
+
 # BigFlow Suite: Tools for distributed scientific workflows
 
 * [DataLife](https://github.com/pnnl/datalife): Measurement and analysis toolset for distributed scientific workflows
