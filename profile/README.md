@@ -15,7 +15,7 @@ Performance Lab for Extreme Computing and Data
 
 * [BigFlowSim](https://gitlab.pnnl.gov/perf-lab/tazer/tazer-bigflow-sim): 
 
-* [(in progress)](https://github.com/pnnl/tazer):
+* [(in progress)](https://gitlab.pnnl.gov/perf-lab/tazer):
 
 
 # Scientific workflows suite
