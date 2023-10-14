@@ -27,10 +27,10 @@ Performance Lab for Extreme Computing and Data
 
 # Workload Benchmarking and Characterization
 
-* [(Scientific workflows suite)](https://gitlab.pnnl.gov/perf-lab/workflows) (...in progress...)
+* [Scientific workflows suite](https://gitlab.pnnl.gov/perf-lab/workflows) (...in progress...)
 
 * [SEAK Suite](https://github.com/pnnl/seak): The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
-  [[Extra docs]](https://github.com/PerfLab-EXaCT/qualm-data)
+  [[Extra docs]](https://gitlab.pnnl.gov/perf-lab/seak/seak-docs)
   
 
 * [PERFECT Suite](https://github.com/pnnl/perfect): The PERFECT Suite consists of kernels and applications for evaluating tradeoffs between performance, power, and architecture within the domains of radar and image processing.
