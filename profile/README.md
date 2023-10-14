@@ -6,7 +6,7 @@ Performance Lab for Extreme Computing and Data
 =============================================================================
 -->
 
-# BigFlow Suite: Performance anlaysis and scheduling for distributed scientific workflows
+# BigFlow Suite: Performance analysis and scheduling for distributed scientific workflows
 
 * [DataLife](https://github.com/pnnl/datalife): DataLife is a measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition.
 
@@ -15,7 +15,7 @@ Performance Lab for Extreme Computing and Data
 * [BigFlowSim](https://gitlab.pnnl.gov/perf-lab/tazer/tazer-bigflow-sim): BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance.
 
 
-# Application performance anlaysis and prediction
+# Application performance analysis and prediction
 
   * [MemGaze](https://github.com/pnnl/memgaze): MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space.
 
@@ -37,7 +37,7 @@ Performance Lab for Extreme Computing and Data
 
 
 
-# Miscelleneous tools for performance analysis and modeling
+# Miscellaneous tools for performance analysis and modeling
 
 * [𝜇bench](https://github.com/PerfLab-EXaCT/ubench)
 
