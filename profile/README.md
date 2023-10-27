@@ -1,10 +1,10 @@
 <!-- -*-Mode: markdown;-*- -->
 <!-- $Id$ -->
 
-<!--
 Performance Lab for Extreme Computing and Data
 =============================================================================
--->
+<!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
+
 
 # BigFlow Suite: Performance analysis and scheduling for distributed scientific workflows
 
@@ -25,16 +25,31 @@ Performance Lab for Extreme Computing and Data
   * [Palm](https://gitlab.pnnl.gov/perf-lab/palm/): Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation.
 
 
+# PNNL's CHESS (Cloud, HPC, and Edge for Science and Security)
+
+* [CHESS-Workflow](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+
+* [Ensemble training](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+
+* [SamIAm](https://github.com/PerfLab-EXaCT/SamIAm)
+
+* [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio)
+
+* [Domain-aware compression](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+
+* [Scientific workflows suite](https://gitlab.pnnl.gov/perf-lab/workflows)
+  [(In progress...)Scientific workflows suite](https://gitlab.com/perflab-exact/workflows)
+
+
 # Workload Benchmarking and Characterization
 
-* [Scientific workflows suite](https://gitlab.pnnl.gov/perf-lab/workflows) (...in progress...)
+* [Scientific workflows suite](https://gitlab.pnnl.gov/perf-lab/workflows)
+  [(In progress...)Scientific workflows suite](https://gitlab.com/perflab-exact/workflows)
 
 * [SEAK Suite](https://github.com/pnnl/seak): The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
   [[Extra docs]](https://gitlab.pnnl.gov/perf-lab/seak/seak-docs)
-  
 
 * [PERFECT Suite](https://github.com/pnnl/perfect): The PERFECT Suite consists of kernels and applications for evaluating tradeoffs between performance, power, and architecture within the domains of radar and image processing.
-
 
 
 # Miscellaneous tools for performance analysis and modeling
