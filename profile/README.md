@@ -7,6 +7,7 @@ Performance Lab for Extreme Computing and Data
 
 
 ## BigFlow Suite: Performance analysis and scheduling for distributed scientific workflows
+<!-- BigFlow Tools -->
 
 * [DataLife](https://github.com/pnnl/datalife): DataLife is a measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition.
 
@@ -47,9 +48,10 @@ Performance Lab for Extreme Computing and Data
   [(In progress...)Scientific workflows suite](https://gitlab.com/perflab-exact/workflows)
 
 * [SEAK Suite](https://github.com/pnnl/seak): The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
-  [[Extra docs]](https://gitlab.pnnl.gov/perf-lab/seak/seak-docs)
 
 * [PERFECT Suite](https://github.com/pnnl/perfect): The PERFECT Suite consists of kernels and applications for evaluating tradeoffs between performance, power, and architecture within the domains of radar and image processing.
+
+* [miniVite-x](https://github.com/PerfLab-EXaCT/minivite-x): Mini-application to demonstrate different memory patterns and test memory analysis tools.
 
 
 ## Miscellaneous tools for performance analysis and modeling
