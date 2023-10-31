@@ -38,14 +38,14 @@ Performance Lab for Extreme Computing and Data
 
 * [Domain-aware compression](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
 
-* [Scientific workflows suite](https://gitlab.pnnl.gov/perf-lab/workflows)
-  [(In progress...)Scientific workflows suite](https://gitlab.com/perflab-exact/workflows)
+* [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
+  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows))
 
 
 ## Workload Benchmarking and Characterization
 
-* [Scientific workflows suite (old)](https://gitlab.pnnl.gov/perf-lab/workflows)   and
-  [Scientific workflows suite (new)](https://gitlab.com/perflab-exact/workflows)
+* [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
+  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows))
 
 * [SEAK Suite](https://github.com/pnnl/seak): The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
 
