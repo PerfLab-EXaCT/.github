@@ -20,15 +20,16 @@ Performance Lab for Extreme Computing and Data
 
   * [MemGaze](https://github.com/pnnl/memgaze): MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space.
 
+  * [Palm](https://gitlab.pnnl.gov/perf-lab/palm/): Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation.
+
   * [QuaL²M (QuaLM)](https://github.com/pnnl/qualm): Quantitative Learned Latency Model
   [[Extra datasets]](https://github.com/PerfLab-EXaCT/qualm-data)
 
-  * [Palm](https://gitlab.pnnl.gov/perf-lab/palm/): Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation.
 
 
 ## PNNL's CHESS (Cloud, HPC, and Edge for Science and Security)
 
-* [CHESS-Workflow](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+* [CHESS workflow template](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
 
 * [Ensemble training](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
 
@@ -64,7 +65,7 @@ Performance Lab for Extreme Computing and Data
 
 ## Misc work in progress
 
-* [membench](https://github.com/PerfLab-EXaCT/membench):
+* [membench](https://github.com/PerfLab-EXaCT/membench)
 
 
 <!-- 𝛍 𝜇 𝝁 -->
