@@ -29,24 +29,29 @@ Performance Lab for Extreme Computing and Data
 
 ## PNNL's CHESS (Cloud, HPC, and Edge for Science and Security)
 
-* [CHESS workflow template](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+* [AutobahnEM](https://gitlab.com/perflab-exact/chess/autobahn-em):
+ CHESS's new workflow for automating experiments with scanning electron microscopes
 
-* [Ensemble training](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+* [SamIAm](https://github.com/PerfLab-EXaCT/SamIAm): Semantic segmentation for images from scanning electron microscopy. SamIAm generates precise segments that accord with domain semantics. It is based on semantic tuning of foundation models for general segmentation.
 
-* [SamIAm](https://github.com/PerfLab-EXaCT/SamIAm)
+* [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio): A tool to rapidly create precise labels for image segments of identical materials.
 
-* [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio)
+* [Domain-aware compression](https://gitlab.com/perflab-exact/chess/compress-em): 
 
-* [Domain-aware compression](https://gitlab.pnnl.gov/perf-lab/CHESS/...)
+* [PRISMScope](https://gitlab.com/perflab-exact/chess/prism-scope): Generates a range of (2D) image projections of a material, given a description of the material's crystalline structure and microscope parameters. Uses [Prismatic](https://prism-em.com).
+
+* [PyChip ensemble trainer](https://gitlab.com/perflab-exact/chess/pychip-ensemble-trainer): Ensemble-based training for AutoEM's PyChip material classifier
+
 
 * [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
-  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows))
+  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows)): A suite of distributed scientific workflows with a range of workload characteristics
+
 
 
 ## Workload Benchmarking and Characterization
 
 * [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
-  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows))
+  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows)): A suite of distributed scientific workflows with a range of workload characteristics
 
 * [SEAK Suite](https://github.com/pnnl/seak): The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
 
