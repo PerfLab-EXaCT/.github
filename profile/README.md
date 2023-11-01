@@ -30,21 +30,26 @@ Performance Lab for Extreme Computing and Data
 ## PNNL's CHESS (Cloud, HPC, and Edge for Science and Security)
 
 * [AutobahnEM](https://gitlab.com/perflab-exact/chess/autobahn-em):
- CHESS's new workflow for automating experiments with scanning electron microscopes
+ CHESS's new workflow for automating experiments with scanning electron microscopes.
 
 * [SamIAm](https://github.com/PerfLab-EXaCT/SamIAm): Semantic segmentation for images from scanning electron microscopy. SamIAm generates precise segments that accord with domain semantics. It is based on semantic tuning of foundation models for general segmentation.
 
 * [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio): A tool to rapidly create precise labels for image segments of identical materials.
 
-* [Domain-aware compression](https://gitlab.com/perflab-exact/chess/compress-em): 
+* [CompressEM](https://gitlab.com/perflab-exact/chess/compress-em): High quality domain-aware compression for scanning electron microscopy. CompressEM leverages generative AI to preserve critical semantic features from the domain. An emerging version [GPULZ](https://github.com/hipdac-lab/ICS23-GPULZ/tree/microscopy) brings high performance.
 
 * [PRISMScope](https://gitlab.com/perflab-exact/chess/prism-scope): Generates a range of (2D) image projections of a material, given a description of the material's crystalline structure and microscope parameters. Uses [Prismatic](https://prism-em.com).
 
-* [PyChip ensemble trainer](https://gitlab.com/perflab-exact/chess/pychip-ensemble-trainer): Ensemble-based training for AutoEM's PyChip material classifier
+* [PyChip ensemble trainer](https://gitlab.com/perflab-exact/chess/pychip-ensemble-trainer): Ensemble-based training for AutoEM's PyChip material classifier.
+
+<!-- Continuum DGL: High performance distributed training for GNNs within [Deep Graph Library](https://www.dgl.ai) -->
+
+<!-- Continuum VecDB: Vector databases for dynamic (execution) and long term management of data flow and storage. -->
 
 
 * [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
   ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows)): A suite of distributed scientific workflows with a range of workload characteristics
+
 
 
 
