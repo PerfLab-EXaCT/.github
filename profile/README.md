@@ -42,7 +42,7 @@ Performance Lab for Extreme Computing and Data
 
 * [PyChip ensemble trainer](https://gitlab.com/perflab-exact/chess/pychip-ensemble-trainer): Ensemble-based training for AutoEM's PyChip material classifier.
 
-* [Continuum DGL](https://github.com/aishwaryyasarkar/Distributed_DGL): High performance distributed training for GNNs within [Deep Graph Library](https://www.dgl.ai)
+* [Massive GNN](https://github.com/aishwaryyasarkar/Distributed_DGL): Performant and productive training for massive GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs must be distributed on distributed and continuum resources.
 
 <!-- Continuum VecDB: Vector databases for dynamic (execution) and long term management of data flow and storage. -->
 
