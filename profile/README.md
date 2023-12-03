@@ -27,7 +27,7 @@ Performance Lab for Extreme Computing and Data
 
 
 
-## PNNL's [CHESS](https://gitlab.com/perflab-exact/chess) (Cloud, HPC, and Edge for Science and Security)
+## PNNL's [CHESS](https://gitlab.com/perflab-exact/chess) ([Cloud, HPC, and Edge for Science and Security](https://www.pnnl.gov/projects/cloud-high-performance-computing-and-edge-science-and-security))
 
 * [CHESS Data](https://gitlab.com/perflab-exact/chess/chess-data):
   Motivating papers and example data reagrding our new methods for automating for scanning electron microscopes.
