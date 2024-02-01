@@ -1,7 +1,7 @@
 <!-- -*-Mode: markdown;-*- -->
 <!-- $Id$ -->
 
-Performance Lab for Extreme Computing and Data
+Performance Lab for EXtreme Computing and DaTa
 =============================================================================
 <!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
 
