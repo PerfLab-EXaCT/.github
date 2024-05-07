@@ -56,8 +56,8 @@ Performance Lab for EXtreme Computing and daTa
 <!-- Continuum VecDB: Vector databases for dynamic (execution) and long term management of data flow and storage. -->
 
 
-* [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
-  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows)): A suite of distributed scientific workflows with a range of workload characteristics
+* [Scientific workflows](https://gitlab.com/perflab-exact/workflows):
+  A suite of distributed scientific workflows with a range of workload characteristics
 
 
 ## Workload Benchmarking and Characterization
