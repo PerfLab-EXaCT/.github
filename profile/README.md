@@ -4,6 +4,7 @@
 Performance Lab for EXtreme Computing and daTa
 =============================================================================
 <!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
+<!-- ~/bin/admin/sync-git-profile ~/1develop -->
 
 
 ## [BigFlow Suite](https://gitlab.com/perflab-exact/bigflow-suite): Performance analysis and scheduling for distributed scientific workflows
