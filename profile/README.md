@@ -37,15 +37,23 @@ Performance Lab for EXtreme Computing and daTa
 
 ## PNNL's [CHESS](https://gitlab.com/perflab-exact/chess) ([Cloud, HPC, and Edge for Science and Security](https://www.pnnl.gov/projects/cloud-high-performance-computing-and-edge-science-and-security))
 
-* Workflow templates and tools
+* Workflow templates
 
     - [AutobahnEM](https://gitlab.com/perflab-exact/chess/autobahn-em): CHESS's new workflow for automating experiments with scanning electron microscopes.
+
+
+* Co-design tools for hybrid workflows
 
     - [DataLife](https://github.com/pnnl/datalife): DataLife is a measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition.
 
     - [FastFlow](https://github.com/pnnl/fastflow):
 
     - [DaYu](https://github.com/pnnl/dayu): 
+
+    - [Scientific workflows](https://gitlab.com/perflab-exact/workflows): A suite of distributed scientific workflows with a range of workload characteristics
+
+    <!-- - [TAZeR](https://github.com/pnnl/tazer): TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. -->
+
 
 * Interpretation of scientific data streams
 
@@ -70,15 +78,11 @@ Performance Lab for EXtreme Computing and daTa
   <!-- https://github.com/hipdac-lab/ICS23-GPULZ/tree/microscopy -->
 
 
+<!-- AI Optimized Dataset Management: Continuum VecDB: Vector databases for dynamic (execution) and long term management of data flow and storage. -->
+
+
 * [CHESS Data](https://gitlab.com/perflab-exact/chess/chess-data):
   Motivating papers and example data reagrding our new methods for automating for scanning electron microscopes.
-
-
-<!-- Continuum VecDB: Vector databases for dynamic (execution) and long term management of data flow and storage. -->
-
-
-* [Scientific workflows](https://gitlab.com/perflab-exact/workflows):
-  A suite of distributed scientific workflows with a range of workload characteristics
 
 
 ## Workload Benchmarking and Characterization
