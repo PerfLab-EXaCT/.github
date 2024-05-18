@@ -50,6 +50,8 @@ Performance Lab for EXtreme Computing and daTa
 
     - [DaYu](https://github.com/pnnl/dayu): 
 
+    <!-- Candice's resource discovery -->
+
     - [Scientific workflows](https://gitlab.com/perflab-exact/workflows): A suite of distributed scientific workflows with a range of workload characteristics
 
     <!-- - [TAZeR](https://github.com/pnnl/tazer): TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. -->
