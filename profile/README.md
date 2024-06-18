@@ -89,8 +89,7 @@ Performance Lab for EXtreme Computing and daTa
 
 ## Workload Benchmarking and Characterization
 
-* [Scientific workflows](https://gitlab.com/perflab-exact/workflows)
-  ([In migration](https://gitlab.pnnl.gov/perf-lab/workflows)): A suite of distributed scientific workflows with a range of workload characteristics
+* [Scientific workflows](https://gitlab.com/perflab-exact/workflows): A suite of distributed scientific workflows with a range of workload characteristics
 
 * [SEAK Suite](https://github.com/pnnl/seak): The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
 
