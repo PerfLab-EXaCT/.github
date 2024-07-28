@@ -53,8 +53,8 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
     The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
 
     - [FastFlow](https://github.com/pnnl/fastflow):
-    <!-- * [FastFlow](https://github.com/pnnl/datalife): -->
     When distributed scientific workflows are not intelligently executed, they can fail time constraints. To improve workflow response time, FastFlow is a new method of scheduling and resource assignment based on a monitor-analyze-optimize strategy. The key insight is to use the global perspective of interacting critical flows to guide a fast (locally greedy) scheduler that uses data flow projections to select between the better of flow parallelism and flow locality. Our method is linear time, unlike the next-best methods.
+    <!-- * [FastFlow](https://github.com/pnnl/datalife): -->
 
     - [DaYu](https://github.com/pnnl/DaYu):
     The increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organize scientific datasets, but it also creates obscure bottlenecks due to the need to translate high level operations into file addresses and then into low-level I/O operations. DaYu is a method and toolset for analyzing (a) semantic relationships between logical datasets and file addresses, (b) how dataset operations translate into I/O, and (c) the combination across entire workflows.
@@ -79,10 +79,10 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 * Distributed model training
 
     - [MassiveGNN](https://github.com/aishwaryyasarkar/Distributed_DGL):
-    <!-- [MassiveGNN](https://github.com/pnnl/MassiveGNN) -->
-    <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
     Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
     MassiveGNN introduces performant and productive training for massively connected (distributed) GNNs within the state-of-the-art [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It brings practical trade-offs for improving the sampling and communication overheads for representation learning on distributed graphs by developing a parameterized prefetch and eviction scheme.
+    <!-- [MassiveGNN](https://github.com/pnnl/MassiveGNN) -->
+    <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
 
     - [PyChip ensemble trainer](https://gitlab.com/perflab-exact/chess/pychip-ensemble-trainer):
     Ensemble-based training for AutoEM's PyChip material classifier.
