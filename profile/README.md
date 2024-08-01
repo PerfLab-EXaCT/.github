@@ -71,7 +71,7 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 * Interpretation of scientific data streams
 
     - [SamIAm](https://github.com/PerfLab-EXaCT/SamIAm):
-    Semantic segmentation for images from scanning electron microscopy. SamIAm generates precise segments that accord with domain semantics. It is based on semantic tuning of foundation models for general segmentation.
+    Image segmentation is a critical enabler for tasks ranging from medical diagnostics to autonomous driving. However, the correct segmentation semantics -- where are boundaries located? what segments are logically similar? -- change depending on the domain, such that state-of-the-art foundation models can generate meaningless and incorrect results. Moreover, in certain domains, fine-tuning and retraining techniques are infeasible: obtaining labels is costly and time-consuming; domain images (micrographs) can be exponentially diverse; and data sharing  (for third-party retraining) is restricted. To enable rapid adaptation of the best segmentation technology, we define _semantic boosting_: given a zero-shot foundation model, _guide_ its segmentation and adjust results to match domain expectations. We apply semantic boosting to the Segment Anything Model (SAM) to obtain _microstructure segmentation_ for transmission electron microscopy. Our booster, SAM-I-Am, extracts geometric and textural features of various intermediate masks to perform mask removal and mask merging operations.
 
     - [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio):
     A tool to rapidly create precise labels for image segments of identical materials.
@@ -96,7 +96,7 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 * Compression for science
 
     - [ViSemZ](https://gitlab.com/perflab-exact/chess/visemz):
-    High quality domain-aware compression for scanning electron microscopy. CompressEM leverages generative AI to preserve critical semantic features from the domain while also delivering high compression ratios and strong performance.
+      Scientific images are crucial for many experimental sciences, but dataset volumes pose significant challenges. Effective image compression must be quick, achieve high ratios, and enable automated interpretation by preserving essential domain features. Traditional image compressors like JPEG can distort critical textures at high compression ratios. In contrast, AI-based compression offers excellent image quality and impressive ratios. However, they are much slower than traditional approaches. To address this, ViSemZ is a high-performance image compressor that preserves _vi_sual _sem_antics.
   <!-- https://github.com/hipdac-lab/ICS23-GPULZ/tree/microscopy -->
 
 
