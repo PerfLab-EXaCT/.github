@@ -96,7 +96,7 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 * Compression for science
 
     - [ViSemZ](https://gitlab.com/perflab-exact/chess/visemz):
-      Scientific images are crucial for many experimental sciences, but dataset volumes pose significant challenges. Effective image compression must be quick, achieve high ratios, and enable automated interpretation by preserving essential domain features. Traditional image compressors like JPEG can distort critical textures at high compression ratios. In contrast, AI-based compression offers excellent image quality and impressive ratios. However, they are much slower than traditional approaches. To address this, ViSemZ is a high-performance image compressor that preserves _vi_sual _sem_antics.
+      Scientific images are crucial for many experimental sciences, but dataset volumes pose significant challenges. Effective image compression must be quick, achieve high ratios, and enable automated interpretation by preserving essential domain features. Traditional image compressors like JPEG can distort critical textures at high compression ratios. In contrast, AI-based compression offers excellent image quality and impressive ratios. However, they are much slower than traditional approaches. To address this, ViSemZ is a high-performance image compressor that preserves *vi*sual *sem*antics.
   <!-- https://github.com/hipdac-lab/ICS23-GPULZ/tree/microscopy -->
 
 
