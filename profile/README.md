@@ -73,7 +73,10 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
     - [SamIAm](https://github.com/PerfLab-EXaCT/SamIAm):
     Image segmentation is a critical enabler for tasks ranging from medical diagnostics to autonomous driving. However, the correct segmentation semantics -- where are boundaries located? what segments are logically similar? -- change depending on the domain, such that state-of-the-art foundation models can generate meaningless and incorrect results. Moreover, in certain domains, fine-tuning and retraining techniques are infeasible: obtaining labels is costly and time-consuming; domain images (micrographs) can be exponentially diverse; and data sharing  (for third-party retraining) is restricted. To enable rapid adaptation of the best segmentation technology, we define _semantic boosting_: given a zero-shot foundation model, _guide_ its segmentation and adjust results to match domain expectations. We apply semantic boosting to the Segment Anything Model (SAM) to obtain _microstructure segmentation_ for transmission electron microscopy. Our booster, SAM-I-Am, extracts geometric and textural features of various intermediate masks to perform mask removal and mask merging operations.
 
-    - [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio):
+    - [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio)
+    It is critical to pre-train AI models with accurate labels. However, precisely segmenting and labeling an image dataset is extraordinarily time-consuming. SamIAm-LabelStudio is a SamIAm-assisted labeling assistant to to rapidly create precise labels for image segments of identical materials.
+
+    - [SamIAm Dataset](https://zenodo.org/records/10909552)
     It is critical to pre-train AI models with accurate labels. However, precisely segmenting and labeling an image dataset is extraordinarily time-consuming. SamIAm-LabelStudio is a SamIAm-assisted labeling assistant to to rapidly create precise labels for image segments of identical materials.
 
 
@@ -90,8 +93,7 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
     Ensemble-based training for AutoEM's PyChip material classifier.
 
     - [PRISMScope](https://gitlab.com/perflab-exact/chess/prism-scope):
-    Generates a range of (2D) image projections of a material, given a description of the material's crystalline structure and microscope parameters. Uses [Prismatic](https://prism-em.com).
-
+    Given a description of the material's crystalline structure and microscope parameters, PRISMScope generates a range of (2D) image projections of a material (from a 4D original). Based on the input request, PRISMScope automatically retrieves a set of relevant parameters and uses [Prismatic](https://prism-em.com) to generate the 4D structure. The results enables association between a material, its crystalline structure, and STEM settings.
 
 * Compression for science
 
