@@ -45,7 +45,7 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 * Workflow templates
 
     - [AutobahnEM](https://gitlab.com/perflab-exact/chess/autobahn-em):
-    CHESS's new workflow for automating experiments with scanning electron microscopes.
+    CHESS's new workflow for automating experiments with scanning electron microscopes. We are currently working on finalizing documentation and examples for different optimization targets.
 
 
 * Co-design tools for hybrid workflows
@@ -53,14 +53,14 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
     - [DataLife](https://github.com/pnnl/datalife):
     The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
 
-    - [FastFlow](https://github.com/pnnl/fastflow):
-    When distributed scientific workflows are not intelligently executed, they can fail time constraints. To improve workflow response time, FastFlow is a new method of scheduling and resource assignment based on a monitor-analyze-optimize strategy. The key insight is to use the global perspective of interacting critical flows to guide a fast (locally greedy) scheduler that uses data flow projections to select between the better of flow parallelism and flow locality. Our method is linear time, unlike the next-best methods.
-    <!-- * [FastFlow](https://github.com/pnnl/datalife): -->
-
     - [DaYu](https://github.com/pnnl/DaYu):
     The increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organize scientific datasets, but it also creates obscure bottlenecks due to the need to translate high level operations into file addresses and then into low-level I/O operations. DaYu is a method and toolset for analyzing (a) semantic relationships between logical datasets and file addresses, (b) how dataset operations translate into I/O, and (c) the combination across entire workflows.
 
     <!-- Candice's resource discovery -->
+
+    - [FastFlow](https://github.com/pnnl/fastflow):
+    When distributed scientific workflows are not intelligently executed, they can fail time constraints. To improve workflow response time, FastFlow is a new method of scheduling and resource assignment based on a monitor-analyze-optimize strategy. The key insight is to use the global perspective of interacting critical flows to guide a fast (locally greedy) scheduler that uses data flow projections to select between the better of flow parallelism and flow locality. Our method is linear time, unlike the next-best methods.
+    <!-- * [FastFlow](https://github.com/pnnl/datalife): -->
 
     - [Scientific workflows](https://gitlab.com/perflab-exact/workflows):
     A suite of distributed scientific workflows with a range of workload characteristics
