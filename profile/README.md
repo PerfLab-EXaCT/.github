@@ -6,6 +6,7 @@ Performance Lab for EXtreme Computing and daTa
 <!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
 <!-- ~/bin/admin/sync-git-profile ~/1develop -->
 
+<!-- 𝛍 𝜇 𝝁 -->
 
 ## [BigFlow Suite](https://gitlab.com/perflab-exact/bigflow-suite): Performance analysis and scheduling for distributed scientific workflows
 <!-- BigFlow Tools -->
@@ -74,9 +75,6 @@ The PERFECT Suite consists of kernels and applications for evaluating tradeoffs 
 Mini-application to demonstrate different memory patterns and test memory analysis tools.
 
 
-## PNNL's [CHESS](https://gitlab.com/perflab-exact/chess) ([Cloud, HPC, and Edge for Science and Security](https://www.pnnl.gov/projects/cloud-high-performance-computing-and-edge-science-and-security))
-
-
 ## Miscellaneous tools for performance analysis and modeling
 
 * [𝜇bench](https://github.com/PerfLab-EXaCT/ubench)
@@ -89,6 +87,5 @@ Mini-application to demonstrate different memory patterns and test memory analys
 * [membench](https://github.com/PerfLab-EXaCT/membench)
 
 
-<!-- 𝛍 𝜇 𝝁 -->
-
+## PNNL's [CHESS](https://gitlab.com/perflab-exact/chess) ([Cloud, HPC, and Edge for Science and Security](https://www.pnnl.gov/projects/cloud-high-performance-computing-and-edge-science-and-security))
 
