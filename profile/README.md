@@ -8,11 +8,14 @@ Performance Lab for EXtreme Computing and daTa
 
 <!-- 𝛍 𝜇 𝝁 -->
 
+<a name="list1"></a>
 ## [BigFlow Suite](https://gitlab.com/perflab-exact/bigflow-suite): Performance analysis and scheduling for distributed scientific workflows
 <!-- BigFlow Tools -->
 
 * [DataLife](https://github.com/pnnl/datalife):
 The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
+
+<!-- Measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition -->
 
 <!-- * [FlowForecaster](https://github.com/pnnl/flowforecaster): -->
 
@@ -25,11 +28,13 @@ The increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organi
 <!-- Candice's matching / resource discovery -->
 
 * [TAZeR](https://github.com/pnnl/tazer):
-TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows.
+TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. TAZeR captures dynamic and irregular inter-task locality, both temporal and spatial, via adaptive hierarchical staging that ensures most frequently accessed data is `close'.
 
 * [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim):
-BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
+BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
 
+
+<a name="list2"></a>
 ## Distributed AI Services
 
 * [MassiveGNN](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
@@ -46,14 +51,13 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 <!-- * [ViSemZ](https://gitlab.com/perflab-exact/chess/visemz): -->
 
 
-
-## Application performance analysis and prediction
+## Application Performance Analysis and Prediction
 
   * [MemGaze](https://github.com/pnnl/memgaze):
   MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space.
 
   * [Palm](https://gitlab.com/perflab-exact/palm):
-  Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation.
+  Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation. Palm generates models by combining top-down (human-provided) semantic insight with bottom-up static and dynamic analysis. Palm has been used to model irregular applications with sparse data structures and unpredictable access patterns. Recent additions focus on rapid characterization of memory behavior.
 
   * [QuaL²M (QuaLM)](https://github.com/pnnl/qualm):
   Quantitative Learned Latency Model
@@ -66,7 +70,7 @@ BigFlowSim is a workflow I/O simulator-emulator and trace generator that capture
 A suite of distributed scientific workflows with a range of workload characteristics
 
 * [SEAK Suite](https://github.com/pnnl/seak):
-The SEAK Suite is a collection of constraining problems for common embedded computing challenges.
+The SEAK Suite is a collection of constraining problems for common embedded computing challenges. A _constraining problem_ is a mission-centric and goal-oriented problem specification that separate problem-domain constraints from solution implementations so as to encourage creative solutions that meet goals but that may deviate from standard implementations.
 
 * [PERFECT Suite](https://github.com/pnnl/perfect):
 The PERFECT Suite consists of kernels and applications for evaluating tradeoffs between performance, power, and architecture within the domains of radar and image processing.
