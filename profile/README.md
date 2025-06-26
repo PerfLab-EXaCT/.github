@@ -9,8 +9,8 @@ Performance Lab for EXtreme Computing and daTa
 <!-- 𝛍 𝜇 𝝁 -->
 
 <a name="list1"></a>
-## [BigFlow Suite](https://gitlab.com/perflab-exact/bigflow-suite): Performance analysis and scheduling for distributed scientific workflows
-<!-- BigFlow Tools -->
+## [DataFlowDrs](https://gitlab.com/perflab-exact/bigflow-suite): Performance analysis and scheduling for distributed scientific workflows
+<!-- BigFlow Suite, BigFlow Tools -->
 
 <!-- Measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition -->
 
