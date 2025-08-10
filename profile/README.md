@@ -4,7 +4,7 @@
 Performance Lab for EXtreme Computing and daTa
 =============================================================================
 <!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
-<!-- ~/bin/admin/sync-git-profile ~/1develop -->
+<!-- ~/bin/admin/sync-git-profile ~/1develop/PerfLab-EXaCT.github -->
 
 <!-- 𝛍 𝜇 𝝁 -->
 
