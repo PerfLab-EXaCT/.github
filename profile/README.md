@@ -96,9 +96,6 @@ Performance Lab for EXtreme Computing and daTa
 
 * [𝜇tools](https://github.com/PerfLab-EXaCT/utools)
 
-
-## Misc work in progress
-
 * [membench](https://github.com/PerfLab-EXaCT/membench)
 
 
