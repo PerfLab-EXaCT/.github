@@ -8,8 +8,8 @@ Performance Lab for EXtreme Computing and daTa
 
 <!-- 𝛍 𝜇 𝝁 -->
 
-<a name="sec-workflows"></a>
-## [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs): Performance analysis and scheduling for distributed scientific workflows
+<a name="repos-workflows"></a>
+## [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs): Performance optimization of HPC workflows
 
 <!-- https://gitlab.com/perflab-exact/bigflow-suite -->
 
@@ -37,7 +37,7 @@ Performance Lab for EXtreme Computing and daTa
   BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
 
 
-<a name="sec-aisys"></a>
+<a name="repos-aisys"></a>
 ## AI Systems • Data Analytics
 
 <!-- PowerTrip, LLMTailer -->
@@ -58,7 +58,7 @@ Performance Lab for EXtreme Computing and daTa
 <!-- * [ViSemZ](https://gitlab.com/perflab-exact/chess/visemz): -->
 
 
-<a name="sec-perftool"></a>
+<a name="repos-perftool"></a>
 ## Hardware/Software Co-design • Application Performance Analysis
 
 * [MemGaze/MemFriend](https://github.com/pnnl/memgaze):
@@ -74,7 +74,7 @@ Performance Lab for EXtreme Computing and daTa
   [[Extra datasets]](https://github.com/PerfLab-EXaCT/qualm-data)
 
 
-<a name="sec-bench"></a>
+<a name="repos-bench"></a>
 ## Workload Benchmarking and Characterization
 
 * [Scientific workflows](https://gitlab.com/perflab-exact/workflows):
