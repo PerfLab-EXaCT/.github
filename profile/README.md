@@ -8,9 +8,13 @@ Performance Lab for EXtreme Computing and daTa
 
 <!-- 𝛍 𝜇 𝝁 -->
 
-<a name="list1"></a>
-## [DataFlowDrs](https://gitlab.com/perflab-exact/bigflow-suite): Performance analysis and scheduling for distributed scientific workflows
-<!-- BigFlow Suite, BigFlow Tools -->
+<a name="sec-workflows"></a>
+## [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs): Performance analysis and scheduling for distributed scientific workflows
+
+<!-- https://gitlab.com/perflab-exact/bigflow-suite -->
+
+* [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs):
+  Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
 
 <!-- Measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition -->
 
@@ -35,8 +39,11 @@ Performance Lab for EXtreme Computing and daTa
   BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
 
 
-<a name="list2"></a>
-## Distributed AI Services
+<a name="sec-aisys"></a>
+## AI Systems • Data Analytics
+
+<!-- PowerTrip, LLMTailer -->
+<!-- Scientific compression: BMQ, ViSemZ -->
 
 * [MassiveGNN](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
   Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
@@ -53,8 +60,8 @@ Performance Lab for EXtreme Computing and daTa
 <!-- * [ViSemZ](https://gitlab.com/perflab-exact/chess/visemz): -->
 
 
-<a name="list3"></a>
-## Application Performance Analysis and Prediction
+<a name="sec-perftool"></a>
+## Hardware/Software Co-design • Application Performance Analysis
 
   * [MemGaze/MemFriend](https://github.com/pnnl/memgaze):
     MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space. MemGaze provides high-resolution by collecting world-level memory access traces, where the highest resolution supported is back-to-back sequences. MemGaze provides several post-mortem trace processing methods, including multi-resolution analysis for locations vs. operations; accesses vs. spatio-temporal reuse, and reuse (distance, rate, volume) vs. access patterns.
@@ -69,7 +76,7 @@ Performance Lab for EXtreme Computing and daTa
     [[Extra datasets]](https://github.com/PerfLab-EXaCT/qualm-data)
 
 
-<a name="list4"></a>
+<a name="sec-bench"></a>
 ## Workload Benchmarking and Characterization
 
 * [Scientific workflows](https://gitlab.com/perflab-exact/workflows):
