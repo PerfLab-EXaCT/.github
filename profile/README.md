@@ -16,21 +16,19 @@ Performance Lab for EXtreme Computing and daTa
 * [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs):
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
 
-<!-- Measurement and analysis toolset for distributed scientific workflows that use I/O and storage for task composition -->
+  - [DataLife](https://github.com/pnnl/datalife):
+    The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
 
-* [DataLife](https://github.com/pnnl/datalife):
-  The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
+  - [DaYu](https://github.com/pnnl/DaYu):
+    The increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organize scientific datasets, but it also creates obscure bottlenecks due to the need to translate high level operations into file addresses and then into low-level I/O operations. DaYu is a method and toolset for analyzing (a) semantic relationships between logical datasets and file addresses, (b) how dataset operations translate into I/O, and (c) the combination across entire workflows. DaYu's analysis and visualization enables identification of critical bottlenecks and reasoning about remediation. With DaYu, one can extract workflow data patterns, develop insights into the behavior of data flows, and identify opportunities for both users and I/O libraries to optimize the applications.
 
-* [DaYu](https://github.com/pnnl/DaYu):
-  The increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organize scientific datasets, but it also creates obscure bottlenecks due to the need to translate high level operations into file addresses and then into low-level I/O operations. DaYu is a method and toolset for analyzing (a) semantic relationships between logical datasets and file addresses, (b) how dataset operations translate into I/O, and (c) the combination across entire workflows. DaYu's analysis and visualization enables identification of critical bottlenecks and reasoning about remediation. With DaYu, one can extract workflow data patterns, develop insights into the behavior of data flows, and identify opportunities for both users and I/O libraries to optimize the applications.
+  - [FlowForecaster](https://github.com/pnnl/FlowForecaster): 
+    FlowForecaster is a tool for automatically inferring detailed and interpretable workflow scaling models from only a few (3--5) empirical task property graphs. A model represents workflow control and data flow as an abstract DAG with analytical expressions to describe how the DAG scales and how data flows along edges. Thus, with a model and proposed workflow input, FlowForecaster predicts the workflow's tasks, control, and data flow properties. 
 
-* [FlowForecaster](https://github.com/pnnl/FlowForecaster): 
-  FlowForecaster is a tool for automatically inferring detailed and interpretable workflow scaling models from only a few (3--5) empirical task property graphs. A model represents workflow control and data flow as an abstract DAG with analytical expressions to describe how the DAG scales and how data flows along edges. Thus, with a model and proposed workflow input, FlowForecaster predicts the workflow's tasks, control, and data flow properties. 
+  - FastFlow: <!-- [FastFlow]() https://github.com/pnnl/FastFlow https://github.com/PerfLab-EXaCT/FastFlow/ -->
+    When distributed scientific workflows are not intelligently executed, they can fail time constraints. To improve workflow response time, FastFlow is a new method of scheduling that prioritizes critical flow paths and their interactions. The key insight is to use the global perspective of interacting critical flows to guide a fast (locally greedy) scheduler that uses data flow projections to select between the better of flow parallelism and flow locality. The result is a rapid, linear-time scheduling method that achieves high quality results and excels on data-intensive workflows.
 
-* FastFlow: <!-- [FastFlow]() https://github.com/pnnl/FastFlow https://github.com/PerfLab-EXaCT/FastFlow/ -->
-   When distributed scientific workflows are not intelligently executed, they can fail time constraints. To improve workflow response time, FastFlow is a new method of scheduling that prioritizes critical flow paths and their interactions. The key insight is to use the global perspective of interacting critical flows to guide a fast (locally greedy) scheduler that uses data flow projections to select between the better of flow parallelism and flow locality. The result is a rapid, linear-time scheduling method that achieves high quality results and excels on data-intensive workflows.
-
-<!-- Candice's SPM / resource discovery -->
+  <!-- Candice's SPM / resource discovery -->
 
 * [TAZeR](https://github.com/pnnl/tazer):
   TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. TAZeR captures dynamic and irregular inter-task locality, both temporal and spatial, via adaptive hierarchical staging that ensures most frequently accessed data is `close'.
@@ -63,17 +61,17 @@ Performance Lab for EXtreme Computing and daTa
 <a name="sec-perftool"></a>
 ## Hardware/Software Co-design • Application Performance Analysis
 
-  * [MemGaze/MemFriend](https://github.com/pnnl/memgaze):
-    MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space. MemGaze provides high-resolution by collecting world-level memory access traces, where the highest resolution supported is back-to-back sequences. MemGaze provides several post-mortem trace processing methods, including multi-resolution analysis for locations vs. operations; accesses vs. spatio-temporal reuse, and reuse (distance, rate, volume) vs. access patterns.
+* [MemGaze/MemFriend](https://github.com/pnnl/memgaze):
+   MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space. MemGaze provides high-resolution by collecting world-level memory access traces, where the highest resolution supported is back-to-back sequences. MemGaze provides several post-mortem trace processing methods, including multi-resolution analysis for locations vs. operations; accesses vs. spatio-temporal reuse, and reuse (distance, rate, volume) vs. access patterns.
     
-    Memgaze now includes *MemFriend*, a new analysis module that introduces spatial and temporal locality analysis that captures affinity (access correlation) between pairs of memory locations. MemFriend's multi-resolution analysis identifies significant memory segments and simultaneously prunes the analysis space such that time and space complexity is modest. MemFriend creates signatures, selectable at 3D, 2D, and 1D resolutions, that provide novel insights and enable predictive reasoning about application performance. The results aid data layout optimizations, and data placement decisions.
+   Memgaze now includes *MemFriend*, a new analysis module that introduces spatial and temporal locality analysis that captures affinity (access correlation) between pairs of memory locations. MemFriend's multi-resolution analysis identifies significant memory segments and simultaneously prunes the analysis space such that time and space complexity is modest. MemFriend creates signatures, selectable at 3D, 2D, and 1D resolutions, that provide novel insights and enable predictive reasoning about application performance. The results aid data layout optimizations, and data placement decisions.
 
-  * [Palm](https://gitlab.com/perflab-exact/palm):
-    Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation. Palm generates models by combining top-down (human-provided) semantic insight with bottom-up static and dynamic analysis. Palm has been used to model irregular applications with sparse data structures and unpredictable access patterns. Recent additions focus on rapid characterization of memory behavior.
+* [Palm](https://gitlab.com/perflab-exact/palm):
+  Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation. Palm generates models by combining top-down (human-provided) semantic insight with bottom-up static and dynamic analysis. Palm has been used to model irregular applications with sparse data structures and unpredictable access patterns. Recent additions focus on rapid characterization of memory behavior.
 
-  * [QuaL²M (QuaLM)](https://github.com/pnnl/qualm):
-    Quantitative Learned Latency Model
-    [[Extra datasets]](https://github.com/PerfLab-EXaCT/qualm-data)
+* [QuaL²M (QuaLM)](https://github.com/pnnl/qualm):
+  Quantitative Learned Latency Model
+  [[Extra datasets]](https://github.com/PerfLab-EXaCT/qualm-data)
 
 
 <a name="sec-bench"></a>
