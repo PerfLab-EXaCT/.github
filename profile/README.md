@@ -9,14 +9,15 @@ Performance Lab for EXtreme Computing and daTa
 <!-- 𝛍 𝜇 𝝁 -->
 
 <a name="repos-workflows"></a>
-## [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs): Performance optimization of HPC workflows
+## [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): Performance optimization of HPC workflows
 
+<!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
 <!-- https://gitlab.com/perflab-exact/bigflow-suite -->
 
-* [DataFlowDrs](https://github.com/PerfLab-EXaCT/DataFlowDrs):
+* [DataFlowDrs](https://github.com/pnnl/DataFlowDrs):
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
 
-  - [DataLife](https://github.com/pnnl/datalife):
+  - [DataLife](https://github.com/pnnl/DataLife):
     The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
 
   - [DaYu](https://github.com/pnnl/DaYu):
@@ -42,6 +43,8 @@ Performance Lab for EXtreme Computing and daTa
 
 <!-- PowerTrip, LLMTailer -->
 <!-- Scientific compression: BMQ, ViSemZ -->
+
+<!-- PowerTrip, for exploiting federated heterogeneous datacenter power during distributed ML training. -->
 
 * [MassiveGNN](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
   Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
