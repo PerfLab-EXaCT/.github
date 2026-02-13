@@ -12,7 +12,7 @@ Performance Lab for EXtreme Computing and daTa
 ## [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): Performance optimization of HPC workflows
 
 
-<details>
+
 
 * [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): 🆕
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
@@ -29,6 +29,7 @@ Performance Lab for EXtreme Computing and daTa
   <!-- https://gitlab.com/PerfLab-EXaCT/bigflow-suite -->
 
 
+<details>
 <summary> [TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator
 </summary>
 
@@ -37,7 +38,6 @@ Performance Lab for EXtreme Computing and daTa
   
   - [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim):
       BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
-
 
 </details>
 
