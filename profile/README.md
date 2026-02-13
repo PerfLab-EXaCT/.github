@@ -27,7 +27,7 @@ Performance Lab for EXtreme Computing and daTa
   <!-- https://gitlab.com/PerfLab-EXaCT/bigflow-suite -->
 
 
-  <details>
+* <details>
   <summary>[TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator</summary>
   <ul>
   <li>[TAZeR](https://github.com/pnnl/tazer):
