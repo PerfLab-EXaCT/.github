@@ -1,6 +1,7 @@
 <!-- -*-Mode: markdown;-*- -->
 <!-- $Id$ -->
 
+<!-- https://markdownlivepreview.com/ -->
 <!-- 𝛍 𝜇 𝝁 -->
 
 Performance Lab for EXtreme Computing and daTa
@@ -22,21 +23,15 @@ Performance Lab for EXtreme Computing and daTa
   [FastFlow](https://github.com/pnnl/FastFlow),
   [QoSFlow](https://github.com/PerfLab-EXaCT/QoSFlow)
 
-  <!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
-  <!-- https://gitlab.com/PerfLab-EXaCT/bigflow-suite -->
 
-
-* <details>
-<summary> [TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator
-</summary>
-
+* [TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator
+  <details>
   - [TAZeR](https://github.com/pnnl/tazer):
       TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. TAZeR captures dynamic and irregular inter-task locality, both temporal and spatial, via adaptive hierarchical staging that ensures most frequently accessed data is `close'.
   
   - [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim):
       BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
-
-</details>
+  </details>
 
 
 <a name="repos-aisys"></a>
