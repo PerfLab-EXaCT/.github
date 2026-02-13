@@ -1,35 +1,30 @@
 <!-- -*-Mode: markdown;-*- -->
 <!-- $Id$ -->
 
+<!-- 𝛍 𝜇 𝝁 -->
+
 Performance Lab for EXtreme Computing and daTa
 =============================================================================
 <!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
 <!-- ~/bin/admin/sync-git-profile ~/1develop/PerfLab-EXaCT.github -->
 
-<!-- 𝛍 𝜇 𝝁 -->
-
 <a name="repos-workflows"></a>
 ## [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): Performance optimization of HPC workflows
 
-<!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
-<!-- https://gitlab.com/perflab-exact/bigflow-suite -->
 
 * [DataFlowDrs](https://github.com/pnnl/DataFlowDrs):
+  <!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
+  <!-- https://gitlab.com/perflab-exact/bigflow-suite -->
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
+  
+  Tools:
+  [DataLife](https://github.com/pnnl/DataLife),
+  [DaYu](https://github.com/pnnl/DaYu),
+  Dataflow Performance Matcher (DPM),
+  [FlowForecaster](https://github.com/pnnl/FlowForecaster),
+  [FastFlow](https://github.com/pnnl/FastFlow),
+  [QoSFlow](https://github.com/PerfLab-EXaCT/QoSFlow)
 
-  - [DataLife](https://github.com/pnnl/DataLife):
-    The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. DataLife is a measurement and analysis toolset for distributed scientific workflows comprised of tasks that interact using files and storage. DataLife performs data flow lifecycle (DFL) analysis to guide decisions regarding coordinating task and data flows on distributed resources. DataLife provides tools for measuring, analyzing, visualizing, and estimating the severity of flow bottlenecks based on I/O and storage.
-
-  - [DaYu](https://github.com/pnnl/DaYu):
-    The increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organize scientific datasets, but it also creates obscure bottlenecks due to the need to translate high level operations into file addresses and then into low-level I/O operations. DaYu is a method and toolset for analyzing (a) semantic relationships between logical datasets and file addresses, (b) how dataset operations translate into I/O, and (c) the combination across entire workflows. DaYu's analysis and visualization enables identification of critical bottlenecks and reasoning about remediation. With DaYu, one can extract workflow data patterns, develop insights into the behavior of data flows, and identify opportunities for both users and I/O libraries to optimize the applications.
-
-  - [FlowForecaster](https://github.com/pnnl/FlowForecaster): 
-    FlowForecaster is a tool for automatically inferring detailed and interpretable workflow scaling models from only a few (3--5) empirical task property graphs. A model represents workflow control and data flow as an abstract DAG with analytical expressions to describe how the DAG scales and how data flows along edges. Thus, with a model and proposed workflow input, FlowForecaster predicts the workflow's tasks, control, and data flow properties. 
-
-  - FastFlow: <!-- [FastFlow]() https://github.com/pnnl/FastFlow https://github.com/PerfLab-EXaCT/FastFlow/ -->
-    When distributed scientific workflows are not intelligently executed, they can fail time constraints. To improve workflow response time, FastFlow is a new method of scheduling that prioritizes critical flow paths and their interactions. The key insight is to use the global perspective of interacting critical flows to guide a fast (locally greedy) scheduler that uses data flow projections to select between the better of flow parallelism and flow locality. The result is a rapid, linear-time scheduling method that achieves high quality results and excels on data-intensive workflows.
-
-  <!-- Candice's SPM / resource discovery -->
 
 * [TAZeR](https://github.com/pnnl/tazer):
   TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. TAZeR captures dynamic and irregular inter-task locality, both temporal and spatial, via adaptive hierarchical staging that ensures most frequently accessed data is `close'.
@@ -44,12 +39,13 @@ Performance Lab for EXtreme Computing and daTa
 <!-- PowerTrip, LLMTailer -->
 <!-- Scientific compression: BMQ, ViSemZ -->
 
-<!-- PowerTrip, for exploiting federated heterogeneous datacenter power during distributed ML training. -->
 
 * [MassiveGNN](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
   Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
   MassiveGNN introduces performant and productive training for massively connected (distributed) GNNs within the state-of-the-art [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It brings practical trade-offs for improving the sampling and communication overheads for representation learning on distributed graphs by developing a parameterized continuous prefetch and eviction scheme.
   <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
+  
+* [PowerTrip](https://github.com/talhamehboob10/PowerTrip), for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
 
 * [SamIAm](https://github.com/pnnl/SAMIAm): <!-- https://github.com/PerfLab-EXaCT/SamIAm -->
     [(Demo)](https://colab.research.google.com/github/PerfLab-EXaCT/SamIAm-LabelStudio/blob/main/SamIAm_Demo.ipynb)
