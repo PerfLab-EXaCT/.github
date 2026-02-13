@@ -4,6 +4,7 @@
 <!-- https://markdownlivepreview.com/ -->
 <!-- 𝛍 𝜇 𝝁 -->
 
+
 Performance Lab for EXtreme Computing and daTa
 =============================================================================
 <!-- https://github.com/PerfLab-EXaCT https://gitlab.com/PerfLab-EXaCT -->
@@ -39,9 +40,7 @@ Performance Lab for EXtreme Computing and daTa
 <a name="repos-aisys"></a>
 ## AI Systems • Data Analytics
 
-<!-- PowerTrip, LLMTailer -->
-<!-- Scientific compression: BMQ, ViSemZ -->
-
+<!-- LLMTailer -->
 
 * [MassiveGNN](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
   Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
@@ -50,30 +49,36 @@ Performance Lab for EXtreme Computing and daTa
   
   
 * [PowerTrip](https://github.com/talhamehboob10/PowerTrip) 🆕 and [PowerMorph](https://github.com/PowerMorph) 🆕, for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
+  <details>
 
-  As AI training's power demands exceed capacity of a single data center, intelligent power federation becomes critical. Effective solutions must overcome the challenges of dynamic power availability and communication cost.   
-  [PowerTrip](https://github.com/talhamehboob10/PowerTrip) intelligently harnesses and federates the residual power of multiple datacenters for distributed AI training, selecting the best combination of power and communication cost.
+  - [PowerTrip](https://github.com/talhamehboob10/PowerTrip): As AI training's power demands exceed capacity of a single data center, intelligent power federation becomes critical. Effective solutions must overcome the challenges of dynamic power availability and communication cost. PowerTrip intelligently harnesses and federates the residual power of multiple datacenters for distributed AI training, selecting the best combination of power and communication cost.
 
-  To ensure secure operation of power grids, datacenters must provide demand response: large jobs must adjust power consumption dynamically based on specific energy requirements. 
-  [PowerMorph](https://github.com/PowerMorph) effectively and reliablly tracks power demand-response curves, ensuring higher throughput while preserving training accuracy. It achieves higher training throughput without compromising training accuracy. The tracking error is minimal (about 2% in experiments).
+  - [PowerMorph](https://github.com/PowerMorph): To ensure secure operation of power grids, datacenters must provide demand response: large jobs must adjust power consumption dynamically based on specific energy requirements. PowerMorph effectively and reliablly tracks power demand-response curves, ensuring higher throughput while preserving training accuracy. It achieves higher training throughput without compromising training accuracy. The tracking error is minimal (about 2% in experiments).
+  </details>
 
 
+<!-- Scientific compression: BMQ, ViSemZ -->
+  
 * [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 Image compression for workflows that provides best-in-class quality and performance by using AI-based compression to preserve an image’s visual semantics.
+  <!-- * [ViSemZ](https://gitlab.com/PerfLab-EXaCT/chess/visemz): -->
 
   <!-- OLD: Scientific images are crucial for many experimental sciences, but dataset volumes pose significant challenges. Effective image compression must be quick, achieve high ratios, and enable automated interpretation by preserving essential domain features. Traditional image compressors like JPEG can distort critical textures at high compression ratios. In contrast, AI-based compression offers excellent image quality and impressive ratios. However, they are much slower than traditional approaches. To address this, ViSemZ is a high-performance image compressor that preserves visual semantics. -->
   
 
+* [SamIAm](https://github.com/pnnl/SAMIAm): _Microstructure segmentation_ for transmission electron microscopy that recognizes geometric and textural features and that is based on semantic boosting of the Segment Anything Model (SAM).
+  <!-- Old: https://github.com/PerfLab-EXaCT/SamIAm -->
+  <details>
 
+  - [SamIAm](https://github.com/pnnl/SAMIAm) Image segmentation is a critical enabler for tasks ranging from medical diagnostics to autonomous driving. However, the correct segmentation semantics -- where are boundaries located? what segments are logically similar? -- change depending on the domain, such that state-of-the-art foundation models can generate meaningless and incorrect results. Moreover, in certain domains, fine-tuning and retraining techniques are infeasible: obtaining labels is costly and time-consuming; domain images (micrographs) can be exponentially diverse; and data sharing  (for third-party retraining) is restricted. To enable rapid adaptation of the best segmentation technology, we define _semantic boosting_: given a zero-shot foundation model, _guide_ its segmentation and adjust results to match domain expectations. We apply semantic boosting to the Segment Anything Model (SAM) to obtain _microstructure segmentation_ for transmission electron microscopy. Our booster, SAM-I-Am, extracts geometric and textural features of various intermediate masks to perform mask removal and mask merging operations.
 
-* [SamIAm](https://github.com/pnnl/SAMIAm): <!-- https://github.com/PerfLab-EXaCT/SamIAm -->
-    [(Demo)](https://colab.research.google.com/github/PerfLab-EXaCT/SamIAm-LabelStudio/blob/main/SamIAm_Demo.ipynb)
-    Image segmentation is a critical enabler for tasks ranging from medical diagnostics to autonomous driving. However, the correct segmentation semantics -- where are boundaries located? what segments are logically similar? -- change depending on the domain, such that state-of-the-art foundation models can generate meaningless and incorrect results. Moreover, in certain domains, fine-tuning and retraining techniques are infeasible: obtaining labels is costly and time-consuming; domain images (micrographs) can be exponentially diverse; and data sharing  (for third-party retraining) is restricted. To enable rapid adaptation of the best segmentation technology, we define _semantic boosting_: given a zero-shot foundation model, _guide_ its segmentation and adjust results to match domain expectations. We apply semantic boosting to the Segment Anything Model (SAM) to obtain _microstructure segmentation_ for transmission electron microscopy. Our booster, SAM-I-Am, extracts geometric and textural features of various intermediate masks to perform mask removal and mask merging operations.
+  - [SuperSAM](https://github.com/pnnl/SuperSAM): Neural Architecture Search (NAS) is a powerful approach of automating the design of efficient neural architectures. In contrast to traditional NAS methods, recently proposed one-shot NAS methods prove to be more efficient in performing NAS. One-shot NAS works by generating a singular weight-sharing supernetwork that acts as a search space (container) of subnetworks. Despite its achievements, designing the one-shot search space remains a major challenge. In this work we propose a search space design strategy for Vision Transformer (ViT)-based architectures. In particular, we convert the Segment Anything Model (SAM) into a weight-sharing supernetwork called SuperSAM. Our approach involves automating the search space design via layer-wise structured pruning and parameter prioritization. While the structured pruning applies probabilistic removal of certain transformer layers, parameter prioritization performs weight reordering and slicing of MLP-blocks in the remaining layers. We train supernetworks on several datasets using the sandwich rule. For deployment, we enhance subnetwork discovery by utilizing a program autotuner to identify efficient subnetworks within the search space. The resulting subnetworks are 30-70% smaller in size compared to the original pre-trained SAM ViT-B, yet outperform the pretrained model. Our work introduces a new and effective method for ViT NAS search-space design.
 
+  - [Demo](https://colab.research.google.com/github/PerfLab-EXaCT/SamIAm-LabelStudio/blob/main/SamIAm_Demo.ipynb)
+  
+  - [SamIAm-LabelStudio](https://github.com/PerfLab-EXaCT/SamIAm-LabelStudio)
 
-* [SuperSAM](https://github.com/pnnl/SuperSAM):
-  Neural Architecture Search (NAS) is a powerful approach of automating the design of efficient neural architectures. In contrast to traditional NAS methods, recently proposed one-shot NAS methods prove to be more efficient in performing NAS. One-shot NAS works by generating a singular weight-sharing supernetwork that acts as a search space (container) of subnetworks. Despite its achievements, designing the one-shot search space remains a major challenge. In this work we propose a search space design strategy for Vision Transformer (ViT)-based architectures. In particular, we convert the Segment Anything Model (SAM) into a weight-sharing supernetwork called SuperSAM. Our approach involves automating the search space design via layer-wise structured pruning and parameter prioritization. While the structured pruning applies probabilistic removal of certain transformer layers, parameter prioritization performs weight reordering and slicing of MLP-blocks in the remaining layers. We train supernetworks on several datasets using the sandwich rule. For deployment, we enhance subnetwork discovery by utilizing a program autotuner to identify efficient subnetworks within the search space. The resulting subnetworks are 30-70% smaller in size compared to the original pre-trained SAM ViT-B, yet outperform the pretrained model. Our work introduces a new and effective method for ViT NAS search-space design.
+  </details>
 
-<!-- * [ViSemZ](https://gitlab.com/PerfLab-EXaCT/chess/visemz): -->
 
 
 <a name="repos-perftool"></a>
