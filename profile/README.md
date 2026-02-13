@@ -12,7 +12,7 @@ Performance Lab for EXtreme Computing and daTa
 ## [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): Performance optimization of HPC workflows
 
 
-* [DataFlowDrs](https://github.com/pnnl/DataFlowDrs):
+* [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): 🆕
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
   
   Tools:
@@ -46,7 +46,14 @@ Performance Lab for EXtreme Computing and daTa
   MassiveGNN introduces performant and productive training for massively connected (distributed) GNNs within the state-of-the-art [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It brings practical trade-offs for improving the sampling and communication overheads for representation learning on distributed graphs by developing a parameterized continuous prefetch and eviction scheme.
   <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
   
-* [PowerTrip](https://github.com/talhamehboob10/PowerTrip), for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
+* [PowerTrip](https://github.com/talhamehboob10/PowerTrip) 🆕 and [PowerMorph](https://github.com/PowerMorph) 🆕, for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
+
+  As AI training's power demands exceed capacity of a single data center, intelligent power federation becomes critical. Effective solutions must overcome the challenges of dynamic power availability and communication cost.   
+  [PowerTrip](https://github.com/talhamehboob10/PowerTrip) intelligently harnesses and federates the residual power of multiple datacenters for distributed AI training, selecting the best combination of power and communication cost.
+
+  To ensure secure operation of power grids, datacenters must provide demand response: large jobs must adjust power consumption dynamically based on specific energy requirements. 
+  [PowerMorph](https://github.com/PowerMorph) effectively and reliablly tracks power demand-response curves, ensuring higher throughput while preserving training accuracy. It achieves higher training throughput without compromising training accuracy. The tracking error is minimal (about 2% in experiments).
+
 
 * [SamIAm](https://github.com/pnnl/SAMIAm): <!-- https://github.com/PerfLab-EXaCT/SamIAm -->
     [(Demo)](https://colab.research.google.com/github/PerfLab-EXaCT/SamIAm-LabelStudio/blob/main/SamIAm_Demo.ipynb)
