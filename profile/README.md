@@ -24,7 +24,7 @@ Performance Lab for EXtreme Computing and daTa
   [QoSFlow](https://github.com/PerfLab-EXaCT/QoSFlow)
 
   <!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
-  <!-- https://gitlab.com/perflab-exact/bigflow-suite -->
+  <!-- https://gitlab.com/PerfLab-EXaCT/bigflow-suite -->
 
 
 * [TAZeR](https://github.com/pnnl/tazer):
@@ -55,7 +55,7 @@ Performance Lab for EXtreme Computing and daTa
 * [SuperSAM](https://github.com/pnnl/SuperSAM):
   Neural Architecture Search (NAS) is a powerful approach of automating the design of efficient neural architectures. In contrast to traditional NAS methods, recently proposed one-shot NAS methods prove to be more efficient in performing NAS. One-shot NAS works by generating a singular weight-sharing supernetwork that acts as a search space (container) of subnetworks. Despite its achievements, designing the one-shot search space remains a major challenge. In this work we propose a search space design strategy for Vision Transformer (ViT)-based architectures. In particular, we convert the Segment Anything Model (SAM) into a weight-sharing supernetwork called SuperSAM. Our approach involves automating the search space design via layer-wise structured pruning and parameter prioritization. While the structured pruning applies probabilistic removal of certain transformer layers, parameter prioritization performs weight reordering and slicing of MLP-blocks in the remaining layers. We train supernetworks on several datasets using the sandwich rule. For deployment, we enhance subnetwork discovery by utilizing a program autotuner to identify efficient subnetworks within the search space. The resulting subnetworks are 30-70% smaller in size compared to the original pre-trained SAM ViT-B, yet outperform the pretrained model. Our work introduces a new and effective method for ViT NAS search-space design.
 
-<!-- * [ViSemZ](https://gitlab.com/perflab-exact/chess/visemz): -->
+<!-- * [ViSemZ](https://gitlab.com/PerfLab-EXaCT/chess/visemz): -->
 
 
 <a name="repos-perftool"></a>
@@ -66,7 +66,7 @@ Performance Lab for EXtreme Computing and daTa
     
    Memgaze now includes *MemFriend*, a new analysis module that introduces spatial and temporal locality analysis that captures affinity (access correlation) between pairs of memory locations. MemFriend's multi-resolution analysis identifies significant memory segments and simultaneously prunes the analysis space such that time and space complexity is modest. MemFriend creates signatures, selectable at 3D, 2D, and 1D resolutions, that provide novel insights and enable predictive reasoning about application performance. The results aid data layout optimizations, and data placement decisions.
 
-* [Palm](https://gitlab.com/perflab-exact/palm):
+* [Palm](https://gitlab.com/PerfLab-EXaCT/palm):
   Palm is a suite of performance modeling tools (Palm, Palm-Task, Representative-Paths, Palm/FastFootprints, MIAMI-NW) to assist performance analysis and predictive model generation. Palm generates models by combining top-down (human-provided) semantic insight with bottom-up static and dynamic analysis. Palm has been used to model irregular applications with sparse data structures and unpredictable access patterns. Recent additions focus on rapid characterization of memory behavior.
 
 * [QuaL²M (QuaLM)](https://github.com/pnnl/qualm):
@@ -77,7 +77,7 @@ Performance Lab for EXtreme Computing and daTa
 <a name="repos-bench"></a>
 ## Workload Benchmarking and Characterization
 
-* [Scientific workflows](https://gitlab.com/perflab-exact/workflows):
+* [Scientific workflows](https://gitlab.com/PerfLab-EXaCT/workflows):
   A suite of distributed scientific workflows with a range of workload characteristics
 
 * [SEAK Suite](https://github.com/pnnl/seak):
@@ -99,5 +99,5 @@ Performance Lab for EXtreme Computing and daTa
 * [membench](https://github.com/PerfLab-EXaCT/membench)
 
 
-## PNNL's [CHESS](https://gitlab.com/perflab-exact/chess) ([Cloud, HPC, and Edge for Science and Security](https://www.pnnl.gov/projects/cloud-high-performance-computing-and-edge-science-and-security))
+## PNNL's [CHESS](https://gitlab.com/PerfLab-EXaCT/chess) ([Cloud, HPC, and Edge for Science and Security](https://www.pnnl.gov/projects/cloud-high-performance-computing-and-edge-science-and-security))
 
