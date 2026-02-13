@@ -11,9 +11,6 @@ Performance Lab for EXtreme Computing and daTa
 <a name="repos-workflows"></a>
 ## [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): Performance optimization of HPC workflows
 
-
-
-
 * [DataFlowDrs](https://github.com/pnnl/DataFlowDrs): 🆕
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
   
@@ -29,7 +26,7 @@ Performance Lab for EXtreme Computing and daTa
   <!-- https://gitlab.com/PerfLab-EXaCT/bigflow-suite -->
 
 
-<details>
+* <details>
 <summary> [TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator
 </summary>
 
@@ -85,10 +82,12 @@ Performance Lab for EXtreme Computing and daTa
 <a name="repos-perftool"></a>
 ## Hardware/Software Co-design • Application Performance Analysis
 
-* [MemGaze/MemFriend](https://github.com/pnnl/memgaze):
+* [MemGaze/MemFriend](https://github.com/pnnl/memgaze): 🆕
    MemGaze is a memory analysis toolset that combines high-resolution trace analysis and low overhead measurement, both with respect to time and space. MemGaze provides high-resolution by collecting world-level memory access traces, where the highest resolution supported is back-to-back sequences. MemGaze provides several post-mortem trace processing methods, including multi-resolution analysis for locations vs. operations; accesses vs. spatio-temporal reuse, and reuse (distance, rate, volume) vs. access patterns.
     
    Memgaze now includes *MemFriend*, a new analysis module that introduces spatial and temporal locality analysis that captures affinity (access correlation) between pairs of memory locations. MemFriend's multi-resolution analysis identifies significant memory segments and simultaneously prunes the analysis space such that time and space complexity is modest. MemFriend creates signatures, selectable at 3D, 2D, and 1D resolutions, that provide novel insights and enable predictive reasoning about application performance. The results aid data layout optimizations, and data placement decisions.
+
+ * [OCEAN](https://cxl-emu.github.io) 🆕 (Open-source CXL Emulation at Hyperscale Architecture and Networking), an emerging tool for emulating CXL-extended distributed memory systems.
 
 
 * [Palm](https://gitlab.com/PerfLab-EXaCT/palm):
