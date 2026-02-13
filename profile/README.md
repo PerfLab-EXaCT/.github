@@ -13,8 +13,6 @@ Performance Lab for EXtreme Computing and daTa
 
 
 * [DataFlowDrs](https://github.com/pnnl/DataFlowDrs):
-  <!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
-  <!-- https://gitlab.com/perflab-exact/bigflow-suite -->
   Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
   
   Tools:
@@ -24,6 +22,9 @@ Performance Lab for EXtreme Computing and daTa
   [FlowForecaster](https://github.com/pnnl/FlowForecaster),
   [FastFlow](https://github.com/pnnl/FastFlow),
   [QoSFlow](https://github.com/PerfLab-EXaCT/QoSFlow)
+
+  <!-- https://github.com/PerfLab-EXaCT/DataFlowDrs -->
+  <!-- https://gitlab.com/perflab-exact/bigflow-suite -->
 
 
 * [TAZeR](https://github.com/pnnl/tazer):
