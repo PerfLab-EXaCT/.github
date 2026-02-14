@@ -58,13 +58,17 @@ Performance Lab for EXtreme Computing and daTa
   </details>
 
 
-<!-- Scientific compression: BMQ, ViSemZ -->
-  
-* [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 Image compression for workflows that provides best-in-class quality and performance by using AI-based compression to preserve an image’s visual semantics.
-  <!-- * [ViSemZ](https://gitlab.com/PerfLab-EXaCT/chess/visemz): -->
+* [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 Image compression for workflows that provides best-in-class image quality, compression ratio, and speed using a novel AI-based compression pipeline.
+  <details>
 
-  <!-- OLD: Scientific images are crucial for many experimental sciences, but dataset volumes pose significant challenges. Effective image compression must be quick, achieve high ratios, and enable automated interpretation by preserving essential domain features. Traditional image compressors like JPEG can distort critical textures at high compression ratios. In contrast, AI-based compression offers excellent image quality and impressive ratios. However, they are much slower than traditional approaches. To address this, ViSemZ is a high-performance image compressor that preserves visual semantics. -->
+  <!-- Update AIZ URL!!! -->
+
+  - [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ): Scientific images are essential for agentic interpretation of experimental science. Effective image compression must be fast, parallelizable, achieve high compression ratios, and preserve important domain-specific features. Existing compressors can distort critical textures at high compression ratios. AI-based compressors, on the other hand, have high quality and compression ratios, but are extraordinarily slow. AIZ is a high-performance AI-based compressor that not only preserves visual semantics, but addresses both compression latency and throughput with a modular high-performance pipeline.
   
+  <!-- BMQSim -->
+
+  </details>
+
 
 * [SAMIAm](https://github.com/pnnl/SAMIAm): _Microstructure segmentation_ for transmission electron microscopy that recognizes geometric and textural features and that is based on semantic boosting of the Segment Anything Model (SAM).
   <!-- Old: https://github.com/PerfLab-EXaCT/SAMIAm -->
