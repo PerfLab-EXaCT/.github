@@ -58,7 +58,7 @@ Performance Lab for EXtreme Computing and daTa
   </details>
 
 
-* [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 Image compression for workflows that provides best-in-class image quality, compression ratio, and speed using a novel AI-based compression pipeline.
+* [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 Image compression for workflows that provides best-in-class image quality (preserving texture), compression ratio, and speed using a novel AI-based compression pipeline.
   <details>
 
   <!-- Update AIZ URL!!! -->
