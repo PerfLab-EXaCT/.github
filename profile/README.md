@@ -49,7 +49,7 @@ Performance Lab for EXtreme Computing and daTa
   <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
   
   
-* [PowerTrip](https://github.com/talhamehboob10/PowerTrip) 🆕 and [PowerMorph](https://github.com/PowerMorph) 🆕, for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
+* [PowerTrip](https://github.com/talhamehboob10/PowerTrip) 🆕 and [PowerMorph](https://github.com/boqiang-li/PowerMorph) 🆕, for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
   <details>
 
   - [PowerTrip](https://github.com/talhamehboob10/PowerTrip): As AI training's power demands exceed capacity of a single data center, intelligent power federation becomes critical. Effective solutions must overcome the challenges of dynamic power availability and communication cost. PowerTrip intelligently harnesses and federates the residual power of multiple datacenters for distributed AI training, selecting the best combination of power and communication cost.
