@@ -22,7 +22,7 @@ Performance Lab for EXtreme Computing and daTa
   Dataflow Performance Matcher (DPM),
   [FlowForecaster](https://github.com/pnnl/FlowForecaster),
   [FastFlow](https://github.com/pnnl/FastFlow),
-  [QoSFlow](https://github.com/PerfLab-EXaCT/QoSFlow)
+  [QoSFlow](https://github.com/pnnl/QoSFlow) <!-- https://github.com/PerfLab-EXaCT/QoSFlow -->
 
 
 * [TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator
