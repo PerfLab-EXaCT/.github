@@ -22,7 +22,7 @@ Performance Lab for EXtreme Computing and daTa
   Dataflow Performance Matcher (DPM),
   [FlowForecaster](https://github.com/pnnl/FlowForecaster),
   [FastFlow](https://github.com/pnnl/FastFlow),
-  [QoSFlow](https://github.com/pnnl/QoSFlow) <!-- https://github.com/PerfLab-EXaCT/QoSFlow -->
+  [QoSFlow](https://github.com/pnnl/QoSFlow)
 
 
 * [TAZeR](https://github.com/pnnl/tazer) Remote I/O and [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim) I/O simulator-emulator
@@ -40,15 +40,11 @@ Performance Lab for EXtreme Computing and daTa
 <a name="repos-aisys"></a>
 ## AI Systems • Data Analytics
 
-<!-- LLMTailer -->
-
-
-* [MassiveGNN](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
+* [MassiveGNN/Rudder](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
   Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
-  MassiveGNN introduces performant and productive training for massively connected (distributed) GNNs within the state-of-the-art [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It brings practical trade-offs for improving the sampling and communication overheads for representation learning on distributed graphs by developing a parameterized continuous prefetch and eviction scheme.
+  MassiveGNN/Rudder introduces performant and productive training for massively connected (distributed) GNNs within the state-of-the-art [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It introduces adaptive communication-efficient prefetching that maintains neighborhood sampling while minimizing communication overheads during representation learning.
   <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
-  
-  
+
 * [PowerTrip](https://github.com/talhamehboob10/PowerTrip) 🆕 and [PowerMorph](https://github.com/boqiang-li/PowerMorph) 🆕, for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
   <details>
 
@@ -57,8 +53,9 @@ Performance Lab for EXtreme Computing and daTa
   - [PowerMorph](https://github.com/PowerMorph): To ensure secure operation of power grids, datacenters must provide demand response: large jobs must adjust power consumption dynamically based on specific energy requirements. PowerMorph effectively and reliablly tracks power demand-response curves, ensuring higher throughput while preserving training accuracy. It achieves higher training throughput without compromising training accuracy. The tracking error is minimal (about 2% in experiments).
   </details>
 
+<!-- ZOCheck, LayerCheck/LLMTailer -->
 
-* [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 Image compression for workflows that provides best-in-class image quality (preserving texture), compression ratio, and speed using a novel AI-based compression pipeline.
+* [AIZ](https://gitlab.com/PerfLab-EXaCT/chess/ViSemZ) 🆕 High performance AI compression that preserves key features in scientific images (e.g., texture) and also achieves best-in-class image qualiy, compression ratio, and speed.
   <details>
 
   <!-- Update AIZ URL!!! -->
