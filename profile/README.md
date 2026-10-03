@@ -29,10 +29,10 @@ Performance Lab for EXtreme Computing and daTa
   <details>
   
   - [TAZeR](https://github.com/pnnl/tazer):
-      TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. TAZeR captures dynamic and irregular inter-task locality, both temporal and spatial, via adaptive hierarchical staging that ensures most frequently accessed data is `close'.
+    TAZeR (Transparent Asynchronous Zero-copy Remote I/O) is a remote I/O framework for transparently minimizing the access latencies of remote I/O in workflows. TAZeR captures dynamic and irregular inter-task locality, both temporal and spatial, via adaptive hierarchical staging that ensures most frequently accessed data is `close'.
   
   - [BigFlowSim](https://github.com/PerfLab-EXaCT/BigFlowSim):
-      BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
+    BigFlowSim is a workflow I/O simulator-emulator and trace generator that captures several parameters that affect local and remote I/O performance. BigFlowSim generates a large variety of flows within and between tasks of distributed workflows. The [BigFlowSim Driver](https://github.com/PerfLab-EXaCT/BigFlowSim-Driver) is helpful for conducting experiments.
 
   </details>
 
@@ -40,9 +40,9 @@ Performance Lab for EXtreme Computing and daTa
 <a name="repos-aisys"></a>
 ## AI Systems • Data Analytics
 
-* [MassiveGNN/Rudder](https://github.com/pnnl/MassiveGNN): <!-- [(development)](https://github.com/aishwaryyasarkar/Distributed_DGL) -->
+* [Rudder](https://github.com/pnnl/rudder) 🆕 (over [MassiveGNN](https://github.com/pnnl/MassiveGNN))
   Graph Neural Networks (GNN) based on massively connected (distributed) GNNs pose significant challenges as even with the best methods, GNN training usually suffers from communication bottlenecks and load imbalance. <!-- due to non-determinism -->
-  MassiveGNN/Rudder introduces performant and productive training for massively connected (distributed) GNNs within the state-of-the-art [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It introduces adaptive communication-efficient prefetching that maintains neighborhood sampling while minimizing communication overheads during representation learning.
+  [Rudder](https://github.com/pnnl/rudder) introduces performant and productive training for massively connected (distributed) GNNs. Rudder guides state-of-the-art  [MassiveGNN](https://github.com/pnnl/MassiveGNN), based on [Amazon DistDGL](https://www.dgl.ai) (distributed Deep Graph Library). It introduces adaptive communication-efficient prefetching that maintains neighborhood sampling while minimizing communication overheads during representation learning.
   <!--  Performant and productive training for massively connected (distributed) GNNs within [Deep Graph Library](https://www.dgl.ai). These GNNs can be distributed on distributed and continuum resources. -->
 
 * [PowerTrip](https://github.com/talhamehboob10/PowerTrip) 🆕 and [PowerMorph](https://github.com/boqiang-li/PowerMorph) 🆕, for addressing the power constraints of large-scale training with federated heterogeneous datacenter power and intelligent adaptation of demand-response power.
